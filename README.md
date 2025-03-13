@@ -31,7 +31,7 @@ Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (G
 
 ---
 
-## 📈 Análise Realizada
+## 📈 Análises Realizada
 
 ### 1. **Exploração dos Dados**
    - Descrição estatística da coluna `Mean` (anomalias de temperatura).
@@ -49,22 +49,6 @@ Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (G
 ### 4. **Análise por Década**
    - Cálculo da média das anomalias por década.
    - Gráfico de barras mostrando a tendência de aumento das anomalias ao longo das décadas.
-
-
-## 🚀 Como Reproduzir a Análise
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/analise-temperatura-global.git
-   cd analise-temperatura-global
-
-2. **Instale as dependências**:
-   ```bash
-   pip install pandas seaborn matplotlib jupyter
-
-3. **Execute o Jupyter Notebook**
-  ```bash
-  jupyter notebook analise_temperatura.ipynb
 
 ## 📌 Sugestões para Análises Futuras
 
