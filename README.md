@@ -27,7 +27,7 @@ Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (G
 - **Python**: Linguagem de programação utilizada.
 - **Pandas**: Para manipulação e análise dos dados.
 - **Seaborn e Matplotlib**: Para visualização dos dados.
-- **Jupyter Notebook/Google Colab**: Ambiente de desenvolvimento interativo.
+- **Google Colab**: Ambiente de desenvolvimento interativo.
 
 ---
 
