@@ -4,21 +4,10 @@ Este projeto realiza uma análise exploratória de dados sobre as anomalias de t
 
 ---
 
-## 📁 Estrutura do Projeto
-
-- **`temperatura_global_anual.csv`**: Arquivo CSV contendo os dados de anomalias de temperatura global.
-- **`analise_temperatura.ipynb`**: Notebook Jupyter com o código completo da análise.
-- **`README.md`**: Este arquivo, com informações sobre o projeto.
-
----
-
 ## 📊 Dados Utilizados
 
-Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (GISS)** e contêm as seguintes colunas:
-
-- **Year**: Ano da medição.
-- **Mean**: Anomalia média da temperatura global em relação a uma média histórica.
-- **Source**: Fonte dos dados (ex.: GISTEMP, gcag).
+Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (GISS)**
+*NASA Goddard Institute for Space Studies (GISS). (n.d.). GISS Surface Temperature Analysis (GISTEMP). Retrieved March 12, 2025, from https://data.giss.nasa.gov/gistemp/*
 
 ---
 
@@ -27,7 +16,7 @@ Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (G
 - **Python**: Linguagem de programação utilizada.
 - **Pandas**: Para manipulação e análise dos dados.
 - **Seaborn e Matplotlib**: Para visualização dos dados.
-- **Google Colab**: Ambiente de desenvolvimento interativo.
+- **Jupyter Notebook**: Ambiente de desenvolvimento interativo.
 
 ---
 
@@ -49,14 +38,3 @@ Os dados foram obtidos a partir do **NASA Goddard Institute for Space Studies (G
 ### 4. **Análise por Década**
    - Cálculo da média das anomalias por década.
    - Gráfico de barras mostrando a tendência de aumento das anomalias ao longo das décadas.
-
-## 📌 Sugestões para Análises Futuras
-
-### 1. **Correlação com Fenômenos Climáticos**
-   - Investigar a relação entre anomalias de temperatura e fenômenos como **El Niño** e **La Niña**.
-
-### 2. **Modelagem Preditiva**
-   - Utilizar modelos de aprendizado de máquina para prever anomalias futuras com base em dados históricos.
-
-### 3. **Análise Regional**
-   - Se disponíveis, analisar dados regionais para entender como as anomalias variam em diferentes partes do mundo.
